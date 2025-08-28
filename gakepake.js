@@ -195,7 +195,7 @@ const obfuscateQuantum = async (fileContent) => {
 // Konfigurasi obfuscation untuk Siu + Calcrick style dengan keamanan ekstrem
 const getSiuCalcrickObfuscationConfig = () => {
     const generateSiuCalcrickName = () => {
-        // Identifier generator pseudo-random tanpa crypto
+        // Identifier generavtor pseudo-random tanpa crypto
         const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         let randomPart = "";
         for (let i = 0; i < 6; i++) { // 6 karakter untuk keseimbangan
